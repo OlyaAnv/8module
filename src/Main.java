@@ -4,10 +4,10 @@ import java.io.IOException;
 */
 
 public class Main {
-    public static String path = "C:\\Android\\q.txt";
+    public final static String PATH = "C:\\Android\\q.txt";
 
     public static void main(String[] args)  {
-        FileInfo myfile = new FileInfo(path);
+        FileInfo myfile = new FileInfo(PATH);
         myfile.lastModifiedTime();
     }
 }
